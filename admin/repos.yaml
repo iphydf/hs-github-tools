@@ -36,7 +36,6 @@ _common:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -265,7 +264,6 @@ _common:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -294,7 +292,6 @@ bTox:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -327,7 +324,6 @@ ci-tools:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -378,7 +374,6 @@ c-toxcore:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -406,36 +401,23 @@ c-toxcore:
           - "Xcode Framework"
           - "analysis (autotools)"
           - "analysis (clang-tidy)"
-          - "analysis (compcert)"
           - "analysis (cppcheck)"
           - "analysis (doxygen)"
-          - "analysis (goblint)"
           - "analysis (infer)"
           - "analysis (misra)"
           - "analysis (modules)"
           - "analysis (pkgsrc)"
           - "analysis (rpm)"
           - "analysis (slimcc)"
-          - "analysis (sparse)"
           - "analysis (tcc)"
-          - "analysis (tokstyle)"
-          - "build-freebsd"
           - "build-netbsd"
-          - "build-windows-msvc (2019)"
           - "build-windows-msvc (2022)"
           - "build-macos"
           - "checks / check-release"
-          - "ci/circleci: bazel-asan"
-          - "ci/circleci: bazel-debug"
-          - "ci/circleci: bazel-msan"
-          - "ci/circleci: bazel-release"
-          - "ci/circleci: cimplefmt"
           - "ci/circleci: clang-analyze"
           - "ci/circleci: cpplint"
           - "ci/circleci: generate-events"
           - "ci/circleci: static-analysis"
-          - "ci/circleci: cimple"
-          - "circleci"
           - "coverage-linux"
           - "docker-bootstrap-node"
           - "docker-bootstrap-node-websocket"
@@ -444,7 +426,6 @@ c-toxcore:
           - "docker-fuzzer"
           - "docker-windows-mingw (32)"
           - "docker-windows-mingw (64)"
-          - "freebsd"
           - "iOS (ios-arm64)"
           - "iOS (ios-armv7)"
           - "iOS (ios-armv7s)"
@@ -475,7 +456,6 @@ cyclone:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -500,7 +480,6 @@ debugtox:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -524,7 +503,6 @@ dockerfiles:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -581,7 +559,6 @@ experimental:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
 
 go-toxcore-c:
@@ -600,7 +577,6 @@ go-toxcore-c:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -625,7 +601,6 @@ hs-apigen:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -652,7 +627,6 @@ hs-cimple:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -678,7 +652,6 @@ hs-github-tools:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -705,7 +678,6 @@ hs-happy-arbitrary:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -732,7 +704,6 @@ hs-msgpack-arbitrary:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -760,7 +731,6 @@ hs-msgpack-binary:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -787,7 +757,6 @@ hs-msgpack-json:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -814,7 +783,6 @@ hs-msgpack-rpc-conduit:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -842,7 +810,6 @@ hs-msgpack-testsuite:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -869,7 +836,6 @@ hs-msgpack-types:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -896,7 +862,6 @@ hs-schema:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -923,7 +888,6 @@ hs-tokstyle:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -949,7 +913,6 @@ hs-toxcore-c:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -977,7 +940,6 @@ hs-toxcore:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1019,34 +981,6 @@ hs-toxcore:
 #          - "build / stack"
 #          - "checks / check-release"
 
-js-toxcore-c:
-  editRepo:
-    <<: *editRepo
-    name: "js-toxcore-c"
-    description: "Node bindings for toxcore"
-    homepage: "https://toktok.ltd"
-    topics: "toxcore, js, ffi"
-
-  labels: *labels
-  rulesets: *rulesets
-  branches:
-    "master":
-      <<: *branchProtection
-      required_status_checks:
-        strict: true
-        contexts:
-          # Common
-          - "Mergeable"
-          - "Milestone Check"
-          - "code-review/reviewable"
-          - "common / buildifier"
-          - "common / restyled"
-          - "release / update_release_draft"
-          # Custom
-          - "DeepScan"
-          - "Hound"
-          - "security/snyk (TokTok)"
-
 jvm-toxcore-c:
   editRepo:
     <<: *editRepo
@@ -1064,7 +998,6 @@ jvm-toxcore-c:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1096,7 +1029,6 @@ py-toxcore-c:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1123,7 +1055,6 @@ qTox:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1172,7 +1103,6 @@ spec:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1196,7 +1126,6 @@ tokhub:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1229,7 +1158,6 @@ toktok-stack:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1257,7 +1185,6 @@ toxic:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1285,7 +1212,6 @@ toxins:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
@@ -1310,7 +1236,6 @@ website:
         strict: true
         contexts:
           # Common
-          - "Mergeable"
           - "Milestone Check"
           - "code-review/reviewable"
           - "common / buildifier"
